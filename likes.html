@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="likes.css">
+    <title>Likes</title>
+</head>
+
+<body>
+    <header>
+        <h1>Network</h1>
+    </header>
+    <h2>Your Feed</h2>
+    <div id="container">
+        <!-- holds all my boxes from left to right-->
+        <div class="leftside">
+            <!--leftside box in the containers holding my 1 left box-->
+            <aside class="box1">
+                <!--  avatar icon, link, profile name  -->
+                <img src="img_534267.png" alt="Profile Icon Image">
+                <a href="#">Add an avatar</a>
+                <p>Joe Mamma</p>
+            </aside>
+        </div>
+        <div class="rightside">
+            <!-- box in container holding my 3 right side boxes-->
+            <!-- right side 3 boxes with likes 3 seperate tags-->
+            <section class="topbox">
+                <div class="topsec1">
+                    <!-- top section for h3, # of likes, and button-->
+                    <h3>The Terminator</h3>
+                    <p> <span id="count1">0</span> like(s)</p> <!-- this increases and changes in JS-->
+                    <button onclick="add1(0)">Like</button> <!-- this is the action that calls the change in JS-->
+                </div>
+                <p class="text1">Get to the <a href="#">Chopper</a> AGGGHHH!!!</p>
+                <!--bottom text content-->
+            </section>
+            <!--end of topbox-->
+            <section class="midbox">
+                <div class="topsec2">
+                    <!-- top section for h4, # of likes, and button-->
+                    <h4>Ronnie Coleman</h4>
+                    <p> <span id="count2">0</span> like(s)</p> <!-- this increases and changes in JS-->
+                    <button onclick="add1(1)">Like</button> <!-- this is the action that calls the change in JS-->
+                </div>
+                <p class="text2">Light <a href="#">weight</a> Baby!!!!!!!!!!!!</p>
+                <!--bottom text content-->
+            </section>
+            <!--end of midbox-->
+            <section class="bottombox">
+                <div class="topsec3">
+                    <!-- top section for h5, # of likes, and button-->
+                    <h5>Cole Train</h5>
+                    <p> <span id="count3">0</span> like(s)</p> <!-- this increases and changes in JS-->
+                    <button onclick="add1(2)">Like</button> <!-- this is the action that calls the change in JS-->
+                </div>
+                <p class="text3">The Cole Trian don't go Wooo, the Cole Train go <a hWOOOOOOO!!! </p>
+                <!--bottom text content-->
+            </section>
+            <!--end of bottom box-->
+        </div>
+    </div>
+    </div>
+    <script src="likes.js"></script>
+</body>
+
+</html>

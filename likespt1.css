@@ -1,0 +1,23 @@
+main {
+    height: 10em;
+    width: 25em;
+    border: black solid 2px;
+    margin: 2em;
+}
+.topbox {
+    display: flex;
+   justify-content: space-between; 
+   align-items: center;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+button {
+    background-color: gold;
+    border: black solid 2px;
+    height: 2em;
+    width: 4em;
+    box-shadow: 2px 2px;
+}
+.text {
+    margin-left: 1em;
+}
